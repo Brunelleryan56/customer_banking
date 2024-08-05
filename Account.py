@@ -15,3 +15,9 @@ class Account:
     def set_interest(self, interest):
         """Sets the interest gained for the the account"""
         self.interest = interest
+
+    def calculate_interest(self, months):
+        """Calculates the simple interest earned over a given time period"""
+        interest_earned = self.balance * self.interest * time
+        return interest_earned
+    
